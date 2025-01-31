@@ -1,0 +1,1258 @@
+[
+    {
+        "belong": "基隆市",
+        "belongId": "city10017",
+        "stations": [
+            {
+                "station": "基隆",
+                "stationId": "0900"
+            },
+            {
+                "station": "三坑",
+                "stationId": "0910"
+            },
+            {
+                "station": "八堵",
+                "stationId": "0920"
+            },
+            {
+                "station": "七堵",
+                "stationId": "0930"
+            },
+            {
+                "station": "百福",
+                "stationId": "0940"
+            },
+            {
+                "station": "海科館",
+                "stationId": "7361"
+            },
+            {
+                "station": "暖暖",
+                "stationId": "7390"
+            }
+        ]
+    },
+    {
+        "belong": "新北市",
+        "belongId": "city65000",
+        "stations": [
+            {
+                "station": "五堵",
+                "stationId": "0950"
+            },
+            {
+                "station": "汐止",
+                "stationId": "0960"
+            },
+            {
+                "station": "汐科",
+                "stationId": "0970"
+            },
+            {
+                "station": "板橋",
+                "stationId": "1020"
+            },
+            {
+                "station": "浮洲",
+                "stationId": "1030"
+            },
+            {
+                "station": "樹林",
+                "stationId": "1040"
+            },
+            {
+                "station": "南樹林",
+                "stationId": "1050"
+            },
+            {
+                "station": "山佳",
+                "stationId": "1060"
+            },
+            {
+                "station": "鶯歌",
+                "stationId": "1070"
+            },
+            {
+                "station": "鳳鳴",
+                "stationId": "1075"
+            },
+            {
+                "station": "福隆",
+                "stationId": "7290"
+            },
+            {
+                "station": "貢寮",
+                "stationId": "7300"
+            },
+            {
+                "station": "雙溪",
+                "stationId": "7310"
+            },
+            {
+                "station": "牡丹",
+                "stationId": "7320"
+            },
+            {
+                "station": "三貂嶺",
+                "stationId": "7330"
+            },
+            {
+                "station": "大華",
+                "stationId": "7331"
+            },
+            {
+                "station": "十分",
+                "stationId": "7332"
+            },
+            {
+                "station": "望古",
+                "stationId": "7333"
+            },
+            {
+                "station": "嶺腳",
+                "stationId": "7334"
+            },
+            {
+                "station": "平溪",
+                "stationId": "7335"
+            },
+            {
+                "station": "菁桐",
+                "stationId": "7336"
+            },
+            {
+                "station": "猴硐",
+                "stationId": "7350"
+            },
+            {
+                "station": "瑞芳",
+                "stationId": "7360"
+            },
+            {
+                "station": "四腳亭",
+                "stationId": "7380"
+            }
+        ]
+    },
+    {
+        "belong": "臺北市",
+        "belongId": "city63000",
+        "stations": [
+            {
+                "station": "南港",
+                "stationId": "0980"
+            },
+            {
+                "station": "松山",
+                "stationId": "0990"
+            },
+            {
+                "station": "臺北",
+                "stationId": "1000"
+            },
+            {
+                "station": "萬華",
+                "stationId": "1010"
+            }
+        ]
+    },
+    {
+        "belong": "桃園市",
+        "belongId": "city68000",
+        "stations": [
+            {
+                "station": "桃園",
+                "stationId": "1080"
+            },
+            {
+                "station": "內壢",
+                "stationId": "1090"
+            },
+            {
+                "station": "中壢",
+                "stationId": "1100"
+            },
+            {
+                "station": "埔心",
+                "stationId": "1110"
+            },
+            {
+                "station": "楊梅",
+                "stationId": "1120"
+            },
+            {
+                "station": "富岡",
+                "stationId": "1130"
+            },
+            {
+                "station": "新富",
+                "stationId": "1140"
+            }
+        ]
+    },
+    {
+        "belong": "新竹縣",
+        "belongId": "city10004",
+        "stations": [
+            {
+                "station": "北湖",
+                "stationId": "1150"
+            },
+            {
+                "station": "湖口",
+                "stationId": "1160"
+            },
+            {
+                "station": "新豐",
+                "stationId": "1170"
+            },
+            {
+                "station": "竹北",
+                "stationId": "1180"
+            },
+            {
+                "station": "竹中",
+                "stationId": "1193"
+            },
+            {
+                "station": "六家",
+                "stationId": "1194"
+            },
+            {
+                "station": "上員",
+                "stationId": "1201"
+            },
+            {
+                "station": "榮華",
+                "stationId": "1202"
+            },
+            {
+                "station": "竹東",
+                "stationId": "1203"
+            },
+            {
+                "station": "橫山",
+                "stationId": "1204"
+            },
+            {
+                "station": "九讚頭",
+                "stationId": "1205"
+            },
+            {
+                "station": "合興",
+                "stationId": "1206"
+            },
+            {
+                "station": "富貴",
+                "stationId": "1207"
+            },
+            {
+                "station": "內灣",
+                "stationId": "1208"
+            }
+        ]
+    },
+    {
+        "belong": "新竹市",
+        "belongId": "city10018",
+        "stations": [
+            {
+                "station": "北新竹",
+                "stationId": "1190"
+            },
+            {
+                "station": "千甲",
+                "stationId": "1191"
+            },
+            {
+                "station": "新莊",
+                "stationId": "1192"
+            },
+            {
+                "station": "新竹",
+                "stationId": "1210"
+            },
+            {
+                "station": "三姓橋",
+                "stationId": "1220"
+            },
+            {
+                "station": "香山",
+                "stationId": "1230"
+            }
+        ]
+    },
+    {
+        "belong": "苗栗縣",
+        "belongId": "city10005",
+        "stations": [
+            {
+                "station": "崎頂",
+                "stationId": "1240"
+            },
+            {
+                "station": "竹南",
+                "stationId": "1250"
+            },
+            {
+                "station": "談文",
+                "stationId": "2110"
+            },
+            {
+                "station": "大山",
+                "stationId": "2120"
+            },
+            {
+                "station": "後龍",
+                "stationId": "2130"
+            },
+            {
+                "station": "龍港",
+                "stationId": "2140"
+            },
+            {
+                "station": "白沙屯",
+                "stationId": "2150"
+            },
+            {
+                "station": "新埔",
+                "stationId": "2160"
+            },
+            {
+                "station": "通霄",
+                "stationId": "2170"
+            },
+            {
+                "station": "苑裡",
+                "stationId": "2180"
+            },
+            {
+                "station": "造橋",
+                "stationId": "3140"
+            },
+            {
+                "station": "豐富",
+                "stationId": "3150"
+            },
+            {
+                "station": "苗栗",
+                "stationId": "3160"
+            },
+            {
+                "station": "南勢",
+                "stationId": "3170"
+            },
+            {
+                "station": "銅鑼",
+                "stationId": "3180"
+            },
+            {
+                "station": "三義",
+                "stationId": "3190"
+            }
+        ]
+    },
+    {
+        "belong": "臺中市",
+        "belongId": "city66000",
+        "stations": [
+            {
+                "station": "日南",
+                "stationId": "2190"
+            },
+            {
+                "station": "大甲",
+                "stationId": "2200"
+            },
+            {
+                "station": "臺中港",
+                "stationId": "2210"
+            },
+            {
+                "station": "清水",
+                "stationId": "2220"
+            },
+            {
+                "station": "沙鹿",
+                "stationId": "2230"
+            },
+            {
+                "station": "龍井",
+                "stationId": "2240"
+            },
+            {
+                "station": "大肚",
+                "stationId": "2250"
+            },
+            {
+                "station": "追分",
+                "stationId": "2260"
+            },
+            {
+                "station": "泰安",
+                "stationId": "3210"
+            },
+            {
+                "station": "后里",
+                "stationId": "3220"
+            },
+            {
+                "station": "豐原",
+                "stationId": "3230"
+            },
+            {
+                "station": "栗林",
+                "stationId": "3240"
+            },
+            {
+                "station": "潭子",
+                "stationId": "3250"
+            },
+            {
+                "station": "頭家厝",
+                "stationId": "3260"
+            },
+            {
+                "station": "松竹",
+                "stationId": "3270"
+            },
+            {
+                "station": "太原",
+                "stationId": "3280"
+            },
+            {
+                "station": "精武",
+                "stationId": "3290"
+            },
+            {
+                "station": "臺中",
+                "stationId": "3300"
+            },
+            {
+                "station": "五權",
+                "stationId": "3310"
+            },
+            {
+                "station": "大慶",
+                "stationId": "3320"
+            },
+            {
+                "station": "烏日",
+                "stationId": "3330"
+            },
+            {
+                "station": "新烏日",
+                "stationId": "3340"
+            },
+            {
+                "station": "成功",
+                "stationId": "3350"
+            }
+        ]
+    },
+    {
+        "belong": "彰化縣",
+        "belongId": "city10007",
+        "stations": [
+            {
+                "station": "彰化",
+                "stationId": "3360"
+            },
+            {
+                "station": "花壇",
+                "stationId": "3370"
+            },
+            {
+                "station": "大村",
+                "stationId": "3380"
+            },
+            {
+                "station": "員林",
+                "stationId": "3390"
+            },
+            {
+                "station": "永靖",
+                "stationId": "3400"
+            },
+            {
+                "station": "社頭",
+                "stationId": "3410"
+            },
+            {
+                "station": "田中",
+                "stationId": "3420"
+            },
+            {
+                "station": "二水",
+                "stationId": "3430"
+            },
+            {
+                "station": "源泉",
+                "stationId": "3431"
+            }
+        ]
+    },
+    {
+        "belong": "南投縣",
+        "belongId": "city10008",
+        "stations": [
+            {
+                "station": "濁水",
+                "stationId": "3432"
+            },
+            {
+                "station": "龍泉",
+                "stationId": "3433"
+            },
+            {
+                "station": "集集",
+                "stationId": "3434"
+            },
+            {
+                "station": "水里",
+                "stationId": "3435"
+            },
+            {
+                "station": "車埕",
+                "stationId": "3436"
+            }
+        ]
+    },
+    {
+        "belong": "雲林縣",
+        "belongId": "city10009",
+        "stations": [
+            {
+                "station": "林內",
+                "stationId": "3450"
+            },
+            {
+                "station": "石榴",
+                "stationId": "3460"
+            },
+            {
+                "station": "斗六",
+                "stationId": "3470"
+            },
+            {
+                "station": "斗南",
+                "stationId": "3480"
+            },
+            {
+                "station": "石龜",
+                "stationId": "3490"
+            }
+        ]
+    },
+    {
+        "belong": "嘉義縣",
+        "belongId": "city10010",
+        "stations": [
+            {
+                "station": "大林",
+                "stationId": "4050"
+            },
+            {
+                "station": "民雄",
+                "stationId": "4060"
+            },
+            {
+                "station": "水上",
+                "stationId": "4090"
+            },
+            {
+                "station": "南靖",
+                "stationId": "4100"
+            }
+        ]
+    },
+    {
+        "belong": "嘉義市",
+        "belongId": "city10020",
+        "stations": [
+            {
+                "station": "嘉北",
+                "stationId": "4070"
+            },
+            {
+                "station": "嘉義",
+                "stationId": "4080"
+            }
+        ]
+    },
+    {
+        "belong": "臺南市",
+        "belongId": "city67000",
+        "stations": [
+            {
+                "station": "後壁",
+                "stationId": "4110"
+            },
+            {
+                "station": "新營",
+                "stationId": "4120"
+            },
+            {
+                "station": "柳營",
+                "stationId": "4130"
+            },
+            {
+                "station": "林鳳營",
+                "stationId": "4140"
+            },
+            {
+                "station": "隆田",
+                "stationId": "4150"
+            },
+            {
+                "station": "拔林",
+                "stationId": "4160"
+            },
+            {
+                "station": "善化",
+                "stationId": "4170"
+            },
+            {
+                "station": "南科",
+                "stationId": "4180"
+            },
+            {
+                "station": "新市",
+                "stationId": "4190"
+            },
+            {
+                "station": "永康",
+                "stationId": "4200"
+            },
+            {
+                "station": "大橋",
+                "stationId": "4210"
+            },
+            {
+                "station": "臺南",
+                "stationId": "4220"
+            },
+            {
+                "station": "保安",
+                "stationId": "4250"
+            },
+            {
+                "station": "仁德",
+                "stationId": "4260"
+            },
+            {
+                "station": "中洲",
+                "stationId": "4270"
+            },
+            {
+                "station": "長榮大學",
+                "stationId": "4271"
+            },
+            {
+                "station": "沙崙",
+                "stationId": "4272"
+            }
+        ]
+    },
+    {
+        "belong": "高雄市",
+        "belongId": "city64000",
+        "stations": [
+            {
+                "station": "大湖",
+                "stationId": "4290"
+            },
+            {
+                "station": "路竹",
+                "stationId": "4300"
+            },
+            {
+                "station": "岡山",
+                "stationId": "4310"
+            },
+            {
+                "station": "橋頭",
+                "stationId": "4320"
+            },
+            {
+                "station": "楠梓",
+                "stationId": "4330"
+            },
+            {
+                "station": "新左營",
+                "stationId": "4340"
+            },
+            {
+                "station": "左營",
+                "stationId": "4350"
+            },
+            {
+                "station": "內惟",
+                "stationId": "4360"
+            },
+            {
+                "station": "美術館",
+                "stationId": "4370"
+            },
+            {
+                "station": "鼓山",
+                "stationId": "4380"
+            },
+            {
+                "station": "三塊厝",
+                "stationId": "4390"
+            },
+            {
+                "station": "高雄",
+                "stationId": "4400"
+            },
+            {
+                "station": "民族",
+                "stationId": "4410"
+            },
+            {
+                "station": "科工館",
+                "stationId": "4420"
+            },
+            {
+                "station": "正義",
+                "stationId": "4430"
+            },
+            {
+                "station": "鳳山",
+                "stationId": "4440"
+            },
+            {
+                "station": "後庄",
+                "stationId": "4450"
+            },
+            {
+                "station": "九曲堂",
+                "stationId": "4460"
+            }
+        ]
+    },
+    {
+        "belong": "屏東縣",
+        "belongId": "city10013",
+        "stations": [
+            {
+                "station": "六塊厝",
+                "stationId": "4470"
+            },
+            {
+                "station": "屏東",
+                "stationId": "5000"
+            },
+            {
+                "station": "歸來",
+                "stationId": "5010"
+            },
+            {
+                "station": "麟洛",
+                "stationId": "5020"
+            },
+            {
+                "station": "西勢",
+                "stationId": "5030"
+            },
+            {
+                "station": "竹田",
+                "stationId": "5040"
+            },
+            {
+                "station": "潮州",
+                "stationId": "5050"
+            },
+            {
+                "station": "崁頂",
+                "stationId": "5060"
+            },
+            {
+                "station": "南州",
+                "stationId": "5070"
+            },
+            {
+                "station": "鎮安",
+                "stationId": "5080"
+            },
+            {
+                "station": "林邊",
+                "stationId": "5090"
+            },
+            {
+                "station": "佳冬",
+                "stationId": "5100"
+            },
+            {
+                "station": "東海",
+                "stationId": "5110"
+            },
+            {
+                "station": "枋寮",
+                "stationId": "5120"
+            },
+            {
+                "station": "加祿",
+                "stationId": "5130"
+            },
+            {
+                "station": "內獅",
+                "stationId": "5140"
+            },
+            {
+                "station": "枋山",
+                "stationId": "5160"
+            }
+        ]
+    },
+    {
+        "belong": "臺東縣",
+        "belongId": "city10014",
+        "stations": [
+            {
+                "station": "大武",
+                "stationId": "5190"
+            },
+            {
+                "station": "瀧溪",
+                "stationId": "5200"
+            },
+            {
+                "station": "金崙",
+                "stationId": "5210"
+            },
+            {
+                "station": "太麻里",
+                "stationId": "5220"
+            },
+            {
+                "station": "知本",
+                "stationId": "5230"
+            },
+            {
+                "station": "康樂",
+                "stationId": "5240"
+            },
+            {
+                "station": "臺東",
+                "stationId": "6000"
+            },
+            {
+                "station": "山里",
+                "stationId": "6010"
+            },
+            {
+                "station": "鹿野",
+                "stationId": "6020"
+            },
+            {
+                "station": "瑞源",
+                "stationId": "6030"
+            },
+            {
+                "station": "瑞和",
+                "stationId": "6040"
+            },
+            {
+                "station": "關山",
+                "stationId": "6050"
+            },
+            {
+                "station": "海端",
+                "stationId": "6060"
+            },
+            {
+                "station": "池上",
+                "stationId": "6070"
+            }
+        ]
+    },
+    {
+        "belong": "花蓮縣",
+        "belongId": "city10015",
+        "stations": [
+            {
+                "station": "富里",
+                "stationId": "6080"
+            },
+            {
+                "station": "東竹",
+                "stationId": "6090"
+            },
+            {
+                "station": "東里",
+                "stationId": "6100"
+            },
+            {
+                "station": "玉里",
+                "stationId": "6110"
+            },
+            {
+                "station": "三民",
+                "stationId": "6120"
+            },
+            {
+                "station": "瑞穗",
+                "stationId": "6130"
+            },
+            {
+                "station": "富源",
+                "stationId": "6140"
+            },
+            {
+                "station": "大富",
+                "stationId": "6150"
+            },
+            {
+                "station": "光復",
+                "stationId": "6160"
+            },
+            {
+                "station": "萬榮",
+                "stationId": "6170"
+            },
+            {
+                "station": "鳳林",
+                "stationId": "6180"
+            },
+            {
+                "station": "南平",
+                "stationId": "6190"
+            },
+            {
+                "station": "林榮新光",
+                "stationId": "6200"
+            },
+            {
+                "station": "豐田",
+                "stationId": "6210"
+            },
+            {
+                "station": "壽豐",
+                "stationId": "6220"
+            },
+            {
+                "station": "平和",
+                "stationId": "6230"
+            },
+            {
+                "station": "志學",
+                "stationId": "6240"
+            },
+            {
+                "station": "吉安",
+                "stationId": "6250"
+            },
+            {
+                "station": "花蓮",
+                "stationId": "7000"
+            },
+            {
+                "station": "北埔",
+                "stationId": "7010"
+            },
+            {
+                "station": "景美",
+                "stationId": "7020"
+            },
+            {
+                "station": "新城",
+                "stationId": "7030"
+            },
+            {
+                "station": "崇德",
+                "stationId": "7040"
+            },
+            {
+                "station": "和仁",
+                "stationId": "7050"
+            },
+            {
+                "station": "和平",
+                "stationId": "7060"
+            }
+        ]
+    },
+    {
+        "belong": "宜蘭縣",
+        "belongId": "city10002",
+        "stations": [
+            {
+                "station": "漢本",
+                "stationId": "7070"
+            },
+            {
+                "station": "武塔",
+                "stationId": "7080"
+            },
+            {
+                "station": "南澳",
+                "stationId": "7090"
+            },
+            {
+                "station": "東澳",
+                "stationId": "7100"
+            },
+            {
+                "station": "永樂",
+                "stationId": "7110"
+            },
+            {
+                "station": "蘇澳",
+                "stationId": "7120"
+            },
+            {
+                "station": "蘇澳新",
+                "stationId": "7130"
+            },
+            {
+                "station": "冬山",
+                "stationId": "7150"
+            },
+            {
+                "station": "羅東",
+                "stationId": "7160"
+            },
+            {
+                "station": "中里",
+                "stationId": "7170"
+            },
+            {
+                "station": "二結",
+                "stationId": "7180"
+            },
+            {
+                "station": "宜蘭",
+                "stationId": "7190"
+            },
+            {
+                "station": "四城",
+                "stationId": "7200"
+            },
+            {
+                "station": "礁溪",
+                "stationId": "7210"
+            },
+            {
+                "station": "頂埔",
+                "stationId": "7220"
+            },
+            {
+                "station": "頭城",
+                "stationId": "7230"
+            },
+            {
+                "station": "外澳",
+                "stationId": "7240"
+            },
+            {
+                "station": "龜山",
+                "stationId": "7250"
+            },
+            {
+                "station": "大溪",
+                "stationId": "7260"
+            },
+            {
+                "station": "大里",
+                "stationId": "7270"
+            },
+            {
+                "station": "石城",
+                "stationId": "7280"
+            }
+        ]
+    },
+    {
+        "belong": "成追線",
+        "belongId": "lineCZ",
+        "stations": [
+            {
+                "station": "追分",
+                "stationId": "2260"
+            },
+            {
+                "station": "成功",
+                "stationId": "3350"
+            }
+        ]
+    },
+    {
+        "belong": "平溪線",
+        "belongId": "linePX",
+        "stations": [
+            {
+                "station": "三貂嶺",
+                "stationId": "7330"
+            },
+            {
+                "station": "大華",
+                "stationId": "7331"
+            },
+            {
+                "station": "十分",
+                "stationId": "7332"
+            },
+            {
+                "station": "望古",
+                "stationId": "7333"
+            },
+            {
+                "station": "嶺腳",
+                "stationId": "7334"
+            },
+            {
+                "station": "平溪",
+                "stationId": "7335"
+            },
+            {
+                "station": "菁桐",
+                "stationId": "7336"
+            }
+        ]
+    },
+    {
+        "belong": "深澳線",
+        "belongId": "lineSA",
+        "stations": [
+            {
+                "station": "瑞芳",
+                "stationId": "7360"
+            },
+            {
+                "station": "海科館",
+                "stationId": "7361"
+            },
+            {
+                "station": "八斗子",
+                "stationId": "7362"
+            },
+            {
+                "station": "深澳",
+                "stationId": "7363"
+            }
+        ]
+    },
+    {
+        "belong": "六家線",
+        "belongId": "lineLJ",
+        "stations": [
+            {
+                "station": "竹中",
+                "stationId": "1193"
+            },
+            {
+                "station": "六家",
+                "stationId": "1194"
+            }
+        ]
+    },
+    {
+        "belong": "內灣線",
+        "belongId": "lineNW",
+        "stations": [
+            {
+                "station": "北新竹",
+                "stationId": "1190"
+            },
+            {
+                "station": "千甲",
+                "stationId": "1191"
+            },
+            {
+                "station": "新莊",
+                "stationId": "1192"
+            },
+            {
+                "station": "竹中",
+                "stationId": "1193"
+            },
+            {
+                "station": "上員",
+                "stationId": "1201"
+            },
+            {
+                "station": "榮華",
+                "stationId": "1202"
+            },
+            {
+                "station": "竹東",
+                "stationId": "1203"
+            },
+            {
+                "station": "橫山",
+                "stationId": "1204"
+            },
+            {
+                "station": "九讚頭",
+                "stationId": "1205"
+            },
+            {
+                "station": "合興",
+                "stationId": "1206"
+            },
+            {
+                "station": "富貴",
+                "stationId": "1207"
+            },
+            {
+                "station": "內灣",
+                "stationId": "1208"
+            }
+        ]
+    },
+    {
+        "belong": "集集線",
+        "belongId": "lineJJ",
+        "stations": [
+            {
+                "station": "二水",
+                "stationId": "3430"
+            },
+            {
+                "station": "源泉",
+                "stationId": "3431"
+            },
+            {
+                "station": "濁水",
+                "stationId": "3432"
+            },
+            {
+                "station": "龍泉",
+                "stationId": "3433"
+            },
+            {
+                "station": "集集",
+                "stationId": "3434"
+            },
+            {
+                "station": "水里",
+                "stationId": "3435"
+            },
+            {
+                "station": "車埕",
+                "stationId": "3436"
+            }
+        ]
+    },
+    {
+        "belong": "沙崙線",
+        "belongId": "lineSH",
+        "stations": [
+            {
+                "station": "中洲",
+                "stationId": "4270"
+            },
+            {
+                "station": "長榮大學",
+                "stationId": "4271"
+            },
+            {
+                "station": "沙崙",
+                "stationId": "4272"
+            }
+        ]
+    }
+]

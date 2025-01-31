@@ -1,0 +1,4 @@
+enum StationType {
+  departure,
+  arrival,
+}
