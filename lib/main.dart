@@ -4,6 +4,7 @@ import 'package:train_time/core/theme/theme_bloc.dart';
 import 'package:train_time/core/theme/theme_state.dart';
 import 'package:train_time/injection_container.dart';
 import 'package:train_time/router.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -37,6 +38,15 @@ class MyApp extends StatelessWidget {
           ),
           debugShowCheckedModeBanner: false,
           routerConfig: router,
+          localizationsDelegates: [
+            GlobalMaterialLocalizations.delegate,
+            GlobalWidgetsLocalizations.delegate,
+            GlobalCupertinoLocalizations.delegate,
+          ],
+          supportedLocales: [
+            const Locale('zh', 'TW'),
+          ],
+          locale: const Locale('zh', 'TW'),
         );
       }),
     );
