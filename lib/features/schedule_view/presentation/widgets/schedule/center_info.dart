@@ -49,23 +49,18 @@ class CenterInfo extends StatelessWidget {
             children: [
               Text(
                 train.startTime,
-                style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                      color: Theme.of(context).colorScheme.primary,
-                    ),
+                style: Theme.of(context).textTheme.headlineSmall,
               ),
               Padding(
                 padding: EdgeInsets.symmetric(horizontal: 8),
                 child: Icon(
                   Icons.forward_rounded,
                   size: 25,
-                  color: Theme.of(context).colorScheme.primary,
                 ),
               ),
               Text(
                 train.endTime,
-                style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                      color: Theme.of(context).colorScheme.primary,
-                    ),
+                style: Theme.of(context).textTheme.headlineSmall,
               ),
             ],
           ),
@@ -73,9 +68,7 @@ class CenterInfo extends StatelessWidget {
             padding: EdgeInsets.symmetric(vertical: 4),
             child: Text(
               train.duration,
-              style: Theme.of(context).textTheme.titleSmall?.copyWith(
-                    color: Theme.of(context).colorScheme.primary,
-                  ),
+              style: Theme.of(context).textTheme.titleSmall,
             ),
           ),
         ],

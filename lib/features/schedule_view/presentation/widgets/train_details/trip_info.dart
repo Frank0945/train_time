@@ -23,7 +23,7 @@ class TripInfo extends StatelessWidget {
                     color: Theme.of(context).colorScheme.secondaryContainer,
                     borderRadius: BorderRadius.circular(10),
                   ),
-                  margin: EdgeInsets.only(right: 8, bottom: 5),
+                  margin: EdgeInsets.only(right: 8, bottom: 6),
                   padding: EdgeInsets.symmetric(horizontal: 8, vertical: 2),
                   child: Text(
                     tag,

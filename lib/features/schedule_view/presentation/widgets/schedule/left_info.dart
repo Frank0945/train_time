@@ -32,7 +32,7 @@ class LeftInfo extends StatelessWidget {
                   train.trainType,
                   style: Theme.of(context).textTheme.titleSmall?.copyWith(
                         color: TrainService.isLocalTrain(train.trainType)
-                            ? Theme.of(context).colorScheme.secondary
+                            ? Theme.of(context).colorScheme.primary
                             : Theme.of(context).colorScheme.tertiary,
                       ),
                 ),
