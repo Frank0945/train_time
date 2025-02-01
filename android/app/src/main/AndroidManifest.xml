@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="train_time"
+        android:label="台鐵一點通"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

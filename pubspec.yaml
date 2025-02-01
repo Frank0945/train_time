@@ -46,6 +46,7 @@ dependencies:
   flutter_localization: ^0.3.1
   intl: ^0.19.0
   go_router: ^14.7.2
+  flutter_launcher_icons: ^0.14.3
 
 dev_dependencies:
   flutter_test:
@@ -64,6 +65,14 @@ dev_dependencies:
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_icon.png"
+  adaptive_icon_foreground: "assets/adaptive_icon_foreground.png"
+  adaptive_icon_background: "#5f9ea0"
+  remove_alpha_ios: true
 
 # The following section is specific to Flutter packages.
 flutter:
