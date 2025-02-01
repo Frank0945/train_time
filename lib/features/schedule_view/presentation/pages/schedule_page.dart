@@ -9,10 +9,10 @@ import 'package:train_time/features/schedule_view/presentation/widgets/schedule/
 import 'package:train_time/injection_container.dart';
 import 'package:train_time/shared/params/schedule_params.dart';
 
-class ScheduleViewPage extends StatelessWidget {
+class SchedulePage extends StatelessWidget {
   final ScheduleParams params;
 
-  const ScheduleViewPage({
+  const SchedulePage({
     super.key,
     required this.params,
   });

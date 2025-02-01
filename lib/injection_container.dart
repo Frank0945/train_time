@@ -8,6 +8,7 @@ import "package:train_time/features/schedule_view/data/repositories/train_repo_i
 import "package:train_time/features/schedule_view/domain/repositories/schedule_repo.dart";
 import "package:train_time/features/schedule_view/domain/repositories/train_repo.dart";
 import "package:train_time/features/schedule_view/domain/usecases/schedule_usecase.dart";
+import "package:train_time/features/schedule_view/domain/usecases/train_details_usecase.dart";
 import "package:train_time/features/schedule_view/domain/usecases/train_status_usecase.dart";
 import "package:train_time/features/train_search/data/repositories/station_repo_impl.dart";
 import "package:train_time/features/train_search/domain/repositories/marker_repo.dart";
@@ -39,6 +40,7 @@ Future<void> initializeDependencies() async {
   sl.registerSingleton<StationUsecase>(StationUsecase(sl()));
   sl.registerSingleton<ScheduleUsecase>(ScheduleUsecase(sl()));
   sl.registerSingleton<TrainStatusUsecase>(TrainStatusUsecase(sl()));
+  sl.registerSingleton<TrainDetailsUsecase>(TrainDetailsUsecase(sl()));
 
   // Blocs
   sl.registerSingleton<ThemeBloc>(

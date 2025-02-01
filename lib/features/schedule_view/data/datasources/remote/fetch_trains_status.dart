@@ -6,15 +6,12 @@ import 'package:train_time/features/schedule_view/data/models/train_status/train
 import 'package:html/parser.dart';
 
 Future<List<TrainStatusModel>> fetchTrainsStatus(TrainStatusDTO dto) async {
-  final date = dateFormatter.format(dto.rideDate);
-  final station = '${dto.station.$1}-${dto.station.$2}';
-
   final dio = Dio();
   final response = await dio.get(
-    Constants.querybystationblankUrl,
+    Constants.queryByStationBlankUrl,
     queryParameters: {
-      'rideDate': date,
-      'station': station,
+      'rideDate': dateFormatter.format(dto.rideDate),
+      'station': '${dto.station.$1}-${dto.station.$2}',
     },
   );
 

@@ -32,7 +32,7 @@ Future<List<TrainModel>> fetchSchedule(TrainDTO dto) async {
 
   final dio = Dio();
   final response = await dio.request(
-    Constants.querybytimeUrl,
+    Constants.queryByTimeUrl,
     options: Options(
       method: 'POST',
     ),

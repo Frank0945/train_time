@@ -8,11 +8,17 @@ class ScheduleLoading extends ScheduleState {}
 class ScheduleLoaded extends ScheduleState {
   final List<TrainEntity> trains;
   final List<TrainStatusEntity> trainsStatus;
-  final String? msg;
 
   ScheduleLoaded({
-    this.trains = const [],
-    this.trainsStatus = const [],
-    this.msg,
+    required this.trains,
+    required this.trainsStatus,
+  });
+}
+
+class ScheduleError extends ScheduleState {
+  final String msg;
+
+  ScheduleError({
+    required this.msg,
   });
 }

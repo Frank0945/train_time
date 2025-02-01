@@ -40,7 +40,7 @@ class ScheduleBloc extends Bloc<ScheduleEvent, ScheduleState> {
     final scheduleDataState = results[0] as DataState<List<TrainEntity>>;
 
     if (scheduleDataState.error != null) {
-      emit(ScheduleLoaded(msg: scheduleDataState.error.toString()));
+      emit(ScheduleError(msg: scheduleDataState.error.toString()));
       return;
     }
 

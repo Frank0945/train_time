@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:train_time/features/schedule_view/presentation/pages/schedule_view.dart';
-import 'package:train_time/features/train_search/presentation/pages/train_search.dart';
+import 'package:train_time/features/schedule_view/presentation/pages/schedule_page.dart';
+import 'package:train_time/features/schedule_view/presentation/pages/train_details_page.dart';
+import 'package:train_time/features/train_search/presentation/pages/train_search_page.dart';
 import 'package:train_time/shared/params/schedule_params.dart';
+import 'package:train_time/shared/params/train_details_params.dart';
 
 enum Routes {
   home('/'),
-  scheduleView('/schedule_view');
+  scheduleView('/schedule_view'),
+  trainDetailsView('/train_details_view');
 
   final String path;
   const Routes(this.path);
@@ -23,7 +26,15 @@ final GoRouter router = GoRouter(
       pageBuilder: (context, state) => _slideTransitionPage(
         context: context,
         state: state,
-        child: ScheduleViewPage(params: state.extra! as ScheduleParams),
+        child: SchedulePage(params: state.extra! as ScheduleParams),
+      ),
+    ),
+    GoRoute(
+      path: Routes.trainDetailsView.path,
+      pageBuilder: (context, state) => _slideTransitionPage(
+        context: context,
+        state: state,
+        child: TrainDetailsPage(params: state.extra! as TrainDetailsParams),
       ),
     ),
   ],
