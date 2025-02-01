@@ -55,9 +55,12 @@ class DateTimePicker extends StatelessWidget {
                         SizedBox(width: 6),
                         Text(
                           dateFormatter.format(state.date),
-                          style: TextStyle(
-                            color: Theme.of(context).colorScheme.primary,
-                          ),
+                          style: Theme.of(context)
+                              .textTheme
+                              .labelLarge
+                              ?.copyWith(
+                                color: Theme.of(context).colorScheme.primary,
+                              ),
                         ),
                       ]),
                 ),
@@ -99,10 +102,31 @@ class DateTimePicker extends StatelessWidget {
                         ),
                         SizedBox(width: 6),
                         Text(
-                          '${state.time.hour}:${state.time.minute} 出發',
-                          style: TextStyle(
-                            color: Theme.of(context).colorScheme.primary,
+                          timeFormatter.format(
+                            DateTime(
+                              _today.year,
+                              _today.month,
+                              _today.day,
+                              state.time.hour,
+                              state.time.minute,
+                            ),
                           ),
+                          style: Theme.of(context)
+                              .textTheme
+                              .labelLarge
+                              ?.copyWith(
+                                color: Theme.of(context).colorScheme.primary,
+                              ),
+                        ),
+                        SizedBox(width: 4),
+                        Text(
+                          '出發',
+                          style: Theme.of(context)
+                              .textTheme
+                              .labelMedium
+                              ?.copyWith(
+                                color: Theme.of(context).colorScheme.secondary,
+                              ),
                         ),
                       ]),
                 ),
