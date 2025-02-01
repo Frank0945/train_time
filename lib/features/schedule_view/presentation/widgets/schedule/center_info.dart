@@ -49,7 +49,7 @@ class CenterInfo extends StatelessWidget {
             children: [
               Text(
                 train.startTime,
-                style: Theme.of(context).textTheme.headlineSmall,
+                style: Theme.of(context).textTheme.titleLarge,
               ),
               Padding(
                 padding: EdgeInsets.symmetric(horizontal: 8),
@@ -60,7 +60,7 @@ class CenterInfo extends StatelessWidget {
               ),
               Text(
                 train.endTime,
-                style: Theme.of(context).textTheme.headlineSmall,
+                style: Theme.of(context).textTheme.titleLarge,
               ),
             ],
           ),

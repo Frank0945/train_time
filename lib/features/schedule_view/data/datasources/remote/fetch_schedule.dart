@@ -27,7 +27,6 @@ Future<List<TrainModel>> fetchSchedule(TrainDTO dto) async {
     'endTime': '23:59',
     'trainTypeList': 'ALL',
     'queryClassification': 'NORMAL',
-    'query': '查詢'
   });
 
   final dio = Dio();
@@ -69,7 +68,7 @@ List<TrainModel> _webCrawler(String html) {
       final via = tds[4].text.replaceAll("-", "");
       final price = tds[6].querySelector('span')!.text.replaceAll(" ", "");
 
-      final form = tds[9].querySelector('form');
+      final form = tds.last.querySelector('form');
 
       final isBookable = form != null;
 

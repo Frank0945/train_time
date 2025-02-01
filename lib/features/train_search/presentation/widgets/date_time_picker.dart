@@ -99,7 +99,7 @@ class DateTimePicker extends StatelessWidget {
                         ),
                         SizedBox(width: 6),
                         Text(
-                          state.time.format(context),
+                          '${state.time.hour}:${state.time.minute} 出發',
                           style: TextStyle(
                             color: Theme.of(context).colorScheme.primary,
                           ),

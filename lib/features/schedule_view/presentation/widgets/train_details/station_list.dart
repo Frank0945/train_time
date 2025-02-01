@@ -27,7 +27,7 @@ class StationList extends StatelessWidget {
     final now = DateTime.now();
 
     final leavingStationIdx = stations.indexWhere(
-      (station) => DateTime.now()
+      (station) => now
           .copyWith(
             hour: int.parse(station.departureTime.split(':')[0]),
             minute: int.parse(station.departureTime.split(':')[1]),
