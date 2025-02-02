@@ -41,8 +41,8 @@ class TripInfo extends StatelessWidget {
                     color: Theme.of(context).colorScheme.onSurfaceVariant,
                   ),
             ),
-            SizedBox(height: 10),
           ],
+          SizedBox(height: 10),
         ],
       ),
     );

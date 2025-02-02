@@ -40,7 +40,7 @@ class AppearanceModal extends StatelessWidget {
               },
               themeMode: state.themeMode,
             ),
-            SizedBox(height: 16),
+            SizedBox(height: 8),
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
               child: Text(
@@ -55,6 +55,7 @@ class AppearanceModal extends StatelessWidget {
                 children: colorMap.keys
                     .map(
                       (key) => ListTile(
+                        minTileHeight: 45,
                         onTap: () {
                           context.read<ThemeBloc>().add(
                                 UpdateTheme(
@@ -65,8 +66,8 @@ class AppearanceModal extends StatelessWidget {
                         title: Row(
                           children: [
                             Container(
-                              width: 25,
-                              height: 25,
+                              width: 20,
+                              height: 20,
                               decoration: BoxDecoration(
                                 color: colorMap[key],
                                 borderRadius: BorderRadius.circular(50),
