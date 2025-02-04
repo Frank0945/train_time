@@ -2,6 +2,7 @@ import 'package:dio/dio.dart';
 import 'package:html/parser.dart';
 import 'package:train_time/core/constants/constants.dart';
 import 'package:train_time/core/utils/formatters.dart';
+import 'package:train_time/features/schedule_view/data/datasources/remote/record_query_schedule.dart';
 import 'package:train_time/features/schedule_view/data/models/train/train_model.dart';
 import 'package:train_time/features/schedule_view/data/models/train/dto/train_dto.dart';
 
@@ -30,17 +31,16 @@ Future<List<TrainModel>> fetchSchedule(TrainDTO dto) async {
   });
 
   final dio = Dio();
-  final response = await dio.request(
+  final response = await dio.post(
     Constants.queryByTimeUrl,
-    options: Options(
-      method: 'POST',
-    ),
     data: data,
   );
 
   if (response.statusCode != 200) {
     throw 'Failed to fetch schedule: ${response.statusMessage}';
   }
+
+  recordQuerySchedule(dto.departureStation.$2, dto.arrivalStation.$2);
 
   return _webCrawler(response.data.toString());
 }
