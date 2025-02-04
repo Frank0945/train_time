@@ -4,6 +4,7 @@ import 'package:train_time/features/train_search/presentation/blocs/marker/marke
 import 'package:train_time/features/train_search/presentation/blocs/picker/picker_bloc.dart';
 import 'package:train_time/features/train_search/presentation/blocs/selected/selected_bloc.dart';
 import 'package:train_time/features/train_search/presentation/widgets/action_list/action_list.dart';
+import 'package:train_time/features/train_search/presentation/widgets/major_update_info.dart';
 import 'package:train_time/features/train_search/presentation/widgets/marked_list.dart';
 import 'package:train_time/features/train_search/presentation/widgets/search.dart';
 import 'package:train_time/features/train_search/presentation/widgets/date_time_picker.dart';
@@ -33,6 +34,7 @@ class TrainSearchPage extends StatelessWidget {
             Expanded(
               child: ListView(
                 children: [
+                  MajorUpdateInfo(prefs: sl()),
                   MarkedList(),
                   ActionList(),
                 ],
