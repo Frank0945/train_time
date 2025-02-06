@@ -35,7 +35,7 @@ List<TrainStatusModel> _webCrawler(String html) {
 
       final trainNo =
           tds[1].querySelector("a")!.attributes['href']!.split("trainNo=").last;
-      final status = tds[5].text.replaceAll('誤點 ', '晚');
+      final status = tds[5].text.replaceAll('誤點', '晚').replaceAll(' ', '');
 
       trains.add(TrainStatusModel(
         trainNo: trainNo,

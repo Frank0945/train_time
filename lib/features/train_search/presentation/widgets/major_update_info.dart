@@ -69,7 +69,7 @@ class MajorUpdateInfo extends StatelessWidget {
         );
       },
       title: Text(
-        "應用程式已完成重大改版！",
+        "台鐵一點通已完成重大改版！",
         style: Theme.of(context).textTheme.bodyMedium?.copyWith(
               color: Theme.of(context).colorScheme.tertiary,
             ),

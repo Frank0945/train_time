@@ -23,7 +23,7 @@ class ActionList extends StatelessWidget {
           context,
           icon: Icons.question_answer_rounded,
           title: "問題回報",
-          text: "回報錯誤內容或操作問題",
+          text: "回報軟體內錯誤或提供建議",
           url: Uri.parse("https://forms.gle/YH6tXQUgnszMuh928"),
         ),
         _action(

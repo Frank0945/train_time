@@ -52,6 +52,7 @@ class TrainDetailsPage extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 TripInfo(
+                  status: state.trainDetails.status,
                   tags: state.trainDetails.tags,
                   note: state.trainDetails.note,
                 ),

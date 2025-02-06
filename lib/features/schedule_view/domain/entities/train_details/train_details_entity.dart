@@ -9,6 +9,7 @@ class TrainDetailsEntity with _$TrainDetailsEntity {
     required List<String> tags,
     required String note,
     required List<TrainDetailsStationEntity> stations,
+    required String status,
   }) = _TrainDetailsEntity;
 
   factory TrainDetailsEntity.fromModel(TrainDetailsModel model) {
@@ -18,6 +19,7 @@ class TrainDetailsEntity with _$TrainDetailsEntity {
       stations: model.stations
           .map((e) => TrainDetailsStationEntity.fromModel(e))
           .toList(),
+      status: model.status,
     );
   }
 }

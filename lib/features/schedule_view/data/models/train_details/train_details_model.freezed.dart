@@ -24,6 +24,7 @@ mixin _$TrainDetailsModel {
   String get note => throw _privateConstructorUsedError;
   List<TrainDetailsStationModel> get stations =>
       throw _privateConstructorUsedError;
+  String get status => throw _privateConstructorUsedError;
 
   /// Serializes this TrainDetailsModel to a JSON map.
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
@@ -44,7 +45,8 @@ abstract class $TrainDetailsModelCopyWith<$Res> {
   $Res call(
       {List<String> tags,
       String note,
-      List<TrainDetailsStationModel> stations});
+      List<TrainDetailsStationModel> stations,
+      String status});
 }
 
 /// @nodoc
@@ -65,6 +67,7 @@ class _$TrainDetailsModelCopyWithImpl<$Res, $Val extends TrainDetailsModel>
     Object? tags = null,
     Object? note = null,
     Object? stations = null,
+    Object? status = null,
   }) {
     return _then(_value.copyWith(
       tags: null == tags
@@ -79,6 +82,10 @@ class _$TrainDetailsModelCopyWithImpl<$Res, $Val extends TrainDetailsModel>
           ? _value.stations
           : stations // ignore: cast_nullable_to_non_nullable
               as List<TrainDetailsStationModel>,
+      status: null == status
+          ? _value.status
+          : status // ignore: cast_nullable_to_non_nullable
+              as String,
     ) as $Val);
   }
 }
@@ -94,7 +101,8 @@ abstract class _$$TrainDetailsModelImplCopyWith<$Res>
   $Res call(
       {List<String> tags,
       String note,
-      List<TrainDetailsStationModel> stations});
+      List<TrainDetailsStationModel> stations,
+      String status});
 }
 
 /// @nodoc
@@ -113,6 +121,7 @@ class __$$TrainDetailsModelImplCopyWithImpl<$Res>
     Object? tags = null,
     Object? note = null,
     Object? stations = null,
+    Object? status = null,
   }) {
     return _then(_$TrainDetailsModelImpl(
       tags: null == tags
@@ -127,6 +136,10 @@ class __$$TrainDetailsModelImplCopyWithImpl<$Res>
           ? _value._stations
           : stations // ignore: cast_nullable_to_non_nullable
               as List<TrainDetailsStationModel>,
+      status: null == status
+          ? _value.status
+          : status // ignore: cast_nullable_to_non_nullable
+              as String,
     ));
   }
 }
@@ -137,7 +150,8 @@ class _$TrainDetailsModelImpl implements _TrainDetailsModel {
   _$TrainDetailsModelImpl(
       {required final List<String> tags,
       required this.note,
-      required final List<TrainDetailsStationModel> stations})
+      required final List<TrainDetailsStationModel> stations,
+      required this.status})
       : _tags = tags,
         _stations = stations;
 
@@ -163,8 +177,11 @@ class _$TrainDetailsModelImpl implements _TrainDetailsModel {
   }
 
   @override
+  final String status;
+
+  @override
   String toString() {
-    return 'TrainDetailsModel(tags: $tags, note: $note, stations: $stations)';
+    return 'TrainDetailsModel(tags: $tags, note: $note, stations: $stations, status: $status)';
   }
 
   @override
@@ -174,7 +191,8 @@ class _$TrainDetailsModelImpl implements _TrainDetailsModel {
             other is _$TrainDetailsModelImpl &&
             const DeepCollectionEquality().equals(other._tags, _tags) &&
             (identical(other.note, note) || other.note == note) &&
-            const DeepCollectionEquality().equals(other._stations, _stations));
+            const DeepCollectionEquality().equals(other._stations, _stations) &&
+            (identical(other.status, status) || other.status == status));
   }
 
   @JsonKey(includeFromJson: false, includeToJson: false)
@@ -183,7 +201,8 @@ class _$TrainDetailsModelImpl implements _TrainDetailsModel {
       runtimeType,
       const DeepCollectionEquality().hash(_tags),
       note,
-      const DeepCollectionEquality().hash(_stations));
+      const DeepCollectionEquality().hash(_stations),
+      status);
 
   /// Create a copy of TrainDetailsModel
   /// with the given fields replaced by the non-null parameter values.
@@ -204,10 +223,10 @@ class _$TrainDetailsModelImpl implements _TrainDetailsModel {
 
 abstract class _TrainDetailsModel implements TrainDetailsModel {
   factory _TrainDetailsModel(
-          {required final List<String> tags,
-          required final String note,
-          required final List<TrainDetailsStationModel> stations}) =
-      _$TrainDetailsModelImpl;
+      {required final List<String> tags,
+      required final String note,
+      required final List<TrainDetailsStationModel> stations,
+      required final String status}) = _$TrainDetailsModelImpl;
 
   factory _TrainDetailsModel.fromJson(Map<String, dynamic> json) =
       _$TrainDetailsModelImpl.fromJson;
@@ -218,6 +237,8 @@ abstract class _TrainDetailsModel implements TrainDetailsModel {
   String get note;
   @override
   List<TrainDetailsStationModel> get stations;
+  @override
+  String get status;
 
   /// Create a copy of TrainDetailsModel
   /// with the given fields replaced by the non-null parameter values.

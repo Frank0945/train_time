@@ -9,6 +9,7 @@ class TrainDetailsModel with _$TrainDetailsModel {
     required List<String> tags,
     required String note,
     required List<TrainDetailsStationModel> stations,
+    required String status,
   }) = _TrainDetailsModel;
 
   factory TrainDetailsModel.fromJson(Map<String, dynamic> json) =>

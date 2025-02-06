@@ -15,6 +15,7 @@ _$TrainDetailsModelImpl _$$TrainDetailsModelImplFromJson(
           .map((e) =>
               TrainDetailsStationModel.fromJson(e as Map<String, dynamic>))
           .toList(),
+      status: json['status'] as String,
     );
 
 Map<String, dynamic> _$$TrainDetailsModelImplToJson(
@@ -23,6 +24,7 @@ Map<String, dynamic> _$$TrainDetailsModelImplToJson(
       'tags': instance.tags,
       'note': instance.note,
       'stations': instance.stations,
+      'status': instance.status,
     };
 
 _$TrainDetailsStationModelImpl _$$TrainDetailsStationModelImplFromJson(

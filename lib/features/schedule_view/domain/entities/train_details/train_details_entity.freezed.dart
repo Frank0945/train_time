@@ -20,6 +20,7 @@ mixin _$TrainDetailsEntity {
   String get note => throw _privateConstructorUsedError;
   List<TrainDetailsStationEntity> get stations =>
       throw _privateConstructorUsedError;
+  String get status => throw _privateConstructorUsedError;
 
   /// Create a copy of TrainDetailsEntity
   /// with the given fields replaced by the non-null parameter values.
@@ -37,7 +38,8 @@ abstract class $TrainDetailsEntityCopyWith<$Res> {
   $Res call(
       {List<String> tags,
       String note,
-      List<TrainDetailsStationEntity> stations});
+      List<TrainDetailsStationEntity> stations,
+      String status});
 }
 
 /// @nodoc
@@ -58,6 +60,7 @@ class _$TrainDetailsEntityCopyWithImpl<$Res, $Val extends TrainDetailsEntity>
     Object? tags = null,
     Object? note = null,
     Object? stations = null,
+    Object? status = null,
   }) {
     return _then(_value.copyWith(
       tags: null == tags
@@ -72,6 +75,10 @@ class _$TrainDetailsEntityCopyWithImpl<$Res, $Val extends TrainDetailsEntity>
           ? _value.stations
           : stations // ignore: cast_nullable_to_non_nullable
               as List<TrainDetailsStationEntity>,
+      status: null == status
+          ? _value.status
+          : status // ignore: cast_nullable_to_non_nullable
+              as String,
     ) as $Val);
   }
 }
@@ -87,7 +94,8 @@ abstract class _$$TrainDetailsEntityImplCopyWith<$Res>
   $Res call(
       {List<String> tags,
       String note,
-      List<TrainDetailsStationEntity> stations});
+      List<TrainDetailsStationEntity> stations,
+      String status});
 }
 
 /// @nodoc
@@ -106,6 +114,7 @@ class __$$TrainDetailsEntityImplCopyWithImpl<$Res>
     Object? tags = null,
     Object? note = null,
     Object? stations = null,
+    Object? status = null,
   }) {
     return _then(_$TrainDetailsEntityImpl(
       tags: null == tags
@@ -120,6 +129,10 @@ class __$$TrainDetailsEntityImplCopyWithImpl<$Res>
           ? _value._stations
           : stations // ignore: cast_nullable_to_non_nullable
               as List<TrainDetailsStationEntity>,
+      status: null == status
+          ? _value.status
+          : status // ignore: cast_nullable_to_non_nullable
+              as String,
     ));
   }
 }
@@ -130,7 +143,8 @@ class _$TrainDetailsEntityImpl implements _TrainDetailsEntity {
   _$TrainDetailsEntityImpl(
       {required final List<String> tags,
       required this.note,
-      required final List<TrainDetailsStationEntity> stations})
+      required final List<TrainDetailsStationEntity> stations,
+      required this.status})
       : _tags = tags,
         _stations = stations;
 
@@ -153,8 +167,11 @@ class _$TrainDetailsEntityImpl implements _TrainDetailsEntity {
   }
 
   @override
+  final String status;
+
+  @override
   String toString() {
-    return 'TrainDetailsEntity(tags: $tags, note: $note, stations: $stations)';
+    return 'TrainDetailsEntity(tags: $tags, note: $note, stations: $stations, status: $status)';
   }
 
   @override
@@ -164,7 +181,8 @@ class _$TrainDetailsEntityImpl implements _TrainDetailsEntity {
             other is _$TrainDetailsEntityImpl &&
             const DeepCollectionEquality().equals(other._tags, _tags) &&
             (identical(other.note, note) || other.note == note) &&
-            const DeepCollectionEquality().equals(other._stations, _stations));
+            const DeepCollectionEquality().equals(other._stations, _stations) &&
+            (identical(other.status, status) || other.status == status));
   }
 
   @override
@@ -172,7 +190,8 @@ class _$TrainDetailsEntityImpl implements _TrainDetailsEntity {
       runtimeType,
       const DeepCollectionEquality().hash(_tags),
       note,
-      const DeepCollectionEquality().hash(_stations));
+      const DeepCollectionEquality().hash(_stations),
+      status);
 
   /// Create a copy of TrainDetailsEntity
   /// with the given fields replaced by the non-null parameter values.
@@ -186,10 +205,10 @@ class _$TrainDetailsEntityImpl implements _TrainDetailsEntity {
 
 abstract class _TrainDetailsEntity implements TrainDetailsEntity {
   factory _TrainDetailsEntity(
-          {required final List<String> tags,
-          required final String note,
-          required final List<TrainDetailsStationEntity> stations}) =
-      _$TrainDetailsEntityImpl;
+      {required final List<String> tags,
+      required final String note,
+      required final List<TrainDetailsStationEntity> stations,
+      required final String status}) = _$TrainDetailsEntityImpl;
 
   @override
   List<String> get tags;
@@ -197,6 +216,8 @@ abstract class _TrainDetailsEntity implements TrainDetailsEntity {
   String get note;
   @override
   List<TrainDetailsStationEntity> get stations;
+  @override
+  String get status;
 
   /// Create a copy of TrainDetailsEntity
   /// with the given fields replaced by the non-null parameter values.

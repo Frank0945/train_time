@@ -41,6 +41,8 @@ TrainDetailsModel _webCrawler(String html) {
     final trs = itinerary.querySelectorAll('tr');
 
     final stations = <TrainDetailsStationModel>[];
+    String status = '';
+
     for (final tr in trs) {
       final tds = tr.querySelectorAll('td');
       if (tds.isEmpty) continue;
@@ -48,6 +50,9 @@ TrainDetailsModel _webCrawler(String html) {
       final station = tds[0].text;
       final arrivalTime = tds[1].text;
       final departureTime = tds[2].text;
+      if (tds[3].text.isNotEmpty) {
+        status = tds[3].text.replaceAll('誤點', '晚').replaceAll(' ', '');
+      }
 
       stations.add(TrainDetailsStationModel(
         station: station,
@@ -60,6 +65,7 @@ TrainDetailsModel _webCrawler(String html) {
       tags: tags,
       note: note,
       stations: stations,
+      status: status,
     );
   } catch (e) {
     throw 'Failed to parse html: $e';
