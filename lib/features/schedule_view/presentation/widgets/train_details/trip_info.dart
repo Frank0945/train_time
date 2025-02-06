@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:train_time/features/schedule_view/domain/services/train_service.dart';
 
-final wrapMargin = EdgeInsets.only(right: 6, bottom: 8);
+final wrapMargin = EdgeInsets.only(right: 6, bottom: 6);
 final wrapPadding = EdgeInsets.symmetric(horizontal: 8, vertical: 3);
 
 class TripInfo extends StatelessWidget {
