@@ -37,14 +37,13 @@ class TripInfo extends StatelessWidget {
                     borderRadius: BorderRadius.circular(10),
                   ),
                   margin: wrapMargin,
-                  padding: wrapPadding,
+                  padding: wrapPadding.copyWith(right: 10, left: 10),
                   child: Text(
                     status,
                     style: Theme.of(context).textTheme.labelMedium?.copyWith(
                           color: isOnTime
                               ? Theme.of(context).colorScheme.onSecondary
                               : Theme.of(context).colorScheme.onError,
-                          letterSpacing: 2,
                         ),
                   ),
                 ),

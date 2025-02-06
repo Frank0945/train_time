@@ -6,7 +6,7 @@ import 'package:train_time/features/train_search/presentation/blocs/selected/sel
 import 'package:train_time/features/train_search/presentation/blocs/selected/selected_state.dart';
 
 final _today = DateTime.now();
-final _lastDate = _today.add(Duration(days: 60));
+final _lastDate = _today.add(Duration(days: 92));
 
 class DateTimePicker extends StatelessWidget {
   const DateTimePicker({super.key});

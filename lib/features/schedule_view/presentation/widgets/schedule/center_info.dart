@@ -38,7 +38,6 @@ class CenterInfo extends StatelessWidget {
                       color: isOnTime
                           ? Theme.of(context).colorScheme.onSecondary
                           : Theme.of(context).colorScheme.onError,
-                      letterSpacing: 2,
                     ),
               ),
             ),
