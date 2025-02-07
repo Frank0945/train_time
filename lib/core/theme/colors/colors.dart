@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-final colorSeeds = [
+const colorSeeds = [
   Colors.teal,
   Colors.red,
   Colors.blue,
@@ -16,7 +16,7 @@ final colorSeeds = [
   Colors.brown,
 ];
 
-final colorMap = {
+const colorMap = {
   "Teal": Colors.teal,
   "Red": Colors.red,
   "Blue": Colors.blue,
@@ -32,7 +32,7 @@ final colorMap = {
   "Brown": Colors.brown,
 };
 
-final colorMapZh = {
+const colorMapZh = {
   "Teal": "鴨綠色",
   "Red": "紅色",
   "Blue": "藍色",

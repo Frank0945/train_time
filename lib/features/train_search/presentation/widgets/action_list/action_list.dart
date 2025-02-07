@@ -16,7 +16,6 @@ class ActionList extends StatelessWidget {
           icon: Icons.palette_rounded,
           title: "外觀設定",
           text: "設定主題深淺與色彩",
-          url: Uri.parse(""),
           isAppearanceSetting: true,
         ),
         _action(
@@ -24,30 +23,29 @@ class ActionList extends StatelessWidget {
           icon: Icons.question_answer_rounded,
           title: "問題回報",
           text: "回報軟體內錯誤或提供建議",
-          url: Uri.parse("https://forms.gle/YH6tXQUgnszMuh928"),
+          url: "https://forms.gle/YH6tXQUgnszMuh928",
         ),
         _action(
           context,
           icon: Icons.rate_review_rounded,
           title: "給予評價",
-          text: "提供您的建議與評分",
-          url: Uri.parse(
-              "https://play.google.com/store/apps/details?id=com.train_time"),
+          text: "提供您的評分與鼓勵",
+          url: "https://play.google.com/store/apps/details?id=com.train_time",
         ),
         _action(
           context,
           icon: Icons.coffee_rounded,
           title: "請開發者喝杯咖啡",
           text: "喜歡本軟體的朋友們，不妨請我喝杯咖啡吧",
-          url: Uri.parse("https://www.buymeacoffee.com/yuanchuang"),
+          url: "https://www.buymeacoffee.com/yuanchuang",
         ),
         _action(
           context,
           icon: Icons.policy_rounded,
           title: "使用者條款",
           text: "當您使用本軟體之服務時，即代表您同意我們的使用者條款",
-          url: Uri.parse(
-              "https://frank0945.github.io/yuanchuangWebsite/train_time/index.html"),
+          url:
+              "https://frank0945.github.io/yuanchuangWebsite/train_time/index.html",
         ),
       ],
     );
@@ -58,7 +56,7 @@ class ActionList extends StatelessWidget {
     required IconData icon,
     required String title,
     required String text,
-    required Uri url,
+    String url = "",
     bool isAppearanceSetting = false,
   }) {
     return Column(
@@ -77,7 +75,7 @@ class ActionList extends StatelessWidget {
               return;
             }
 
-            await launchUrl(url);
+            await launchUrl(Uri.parse(url));
           },
           leading: Icon(
             icon,

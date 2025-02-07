@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:train_time/core/theme/theme_bloc.dart';
 import 'package:train_time/core/theme/theme_state.dart';
 import 'package:train_time/injection_container.dart';
@@ -9,6 +10,8 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await initializeDependencies();
+  await dotenv.load();
+
   runApp(MyApp());
 }
 
