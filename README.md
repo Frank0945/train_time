@@ -2,7 +2,7 @@
 
 ## Overview
 
-TRA EasyGo (train_time), a.k.a. 台鐵一點通, was originally developed as a Cordova app in 2017. However, due to various factors—most notably the unreasonable fees imposed on small nonprofit developers by TDX (Transport Data eXchange), a platform under Taiwan's Ministry of Transportation and Communications—I had to switch the data source to web scraping. To improve performance and maintainability, I migrated the app to Flutter.
+TRA EasyGo (train_time), a.k.a. 台鐵一點通, was originally developed as a Cordova app in 2018. However, due to various factors—most notably the unreasonable fees imposed on small nonprofit developers by TDX (Transport Data eXchange), a platform under Taiwan's Ministry of Transportation and Communications—I had to switch the data source to web scraping. To improve performance and maintainability, I migrated the app to Flutter.
 
 The application is designed for querying Taiwan Railway Administration (TRA) schedules. It allows users to check train timetables, view detailed train information, and track real-time train statuses. This project follows Clean Architecture and utilizes Bloc for state management, ensuring maintainability and scalability.
 
