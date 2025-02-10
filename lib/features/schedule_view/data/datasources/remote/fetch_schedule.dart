@@ -24,7 +24,7 @@ Future<List<TrainModel>> fetchSchedule(TrainDTO dto) async {
     'transfer': 'ONE',
     'rideDate': dateFormatter.format(time),
     'startOrEndTime': 'true',
-    'startTime': timeFormatter.format(time),
+    'startTime': '00:00',
     'endTime': '23:59',
     'trainTypeList': 'ALL',
     'queryClassification': 'NORMAL',

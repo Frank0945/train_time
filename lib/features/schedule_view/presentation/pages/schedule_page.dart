@@ -56,7 +56,7 @@ class SchedulePage extends StatelessWidget {
               ),
               SizedBox(height: 3),
               Text(
-                '${dateFormatter.format(params.date)}  ${params.time.format(context)} 出發',
+                '${dateFormatter.format(params.date)} 出發',
                 style: Theme.of(context).textTheme.bodySmall?.copyWith(
                       color: Theme.of(context).colorScheme.onSurfaceVariant,
                     ),
@@ -83,9 +83,21 @@ class SchedulePage extends StatelessWidget {
           ],
           child: TabBarView(
             children: <Widget>[
-              ScheduleList(params: params, filter: ScheduleFilterType.all),
-              ScheduleList(params: params, filter: ScheduleFilterType.local),
-              ScheduleList(params: params, filter: ScheduleFilterType.numbered),
+              ScheduleList(
+                params: params,
+                filter: ScheduleFilterType.all,
+                key: PageStorageKey('all'),
+              ),
+              ScheduleList(
+                params: params,
+                filter: ScheduleFilterType.local,
+                key: PageStorageKey('local'),
+              ),
+              ScheduleList(
+                params: params,
+                filter: ScheduleFilterType.numbered,
+                key: PageStorageKey('numbered'),
+              ),
             ],
           ),
         ),

@@ -17,12 +17,11 @@ class LeftInfo extends StatelessWidget {
             children: [
               if (!TrainService.isLocalTrain(train.trainType))
                 Positioned(
-                  top: 0.5,
+                  top: 1,
                   left: -8,
                   child: Container(
                     height: 38,
                     width: 2,
-                    margin: EdgeInsets.only(right: 3),
                     color: Theme.of(context).colorScheme.tertiary,
                   ),
                 ),
