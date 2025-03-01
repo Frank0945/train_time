@@ -53,7 +53,7 @@ You can download it on **Google Play**: [台鐵一點通](https://play.google.co
 
 ## Project Structure
 
-This project follows **Clean Architecture** and is structured as follows:
+This project follows a combination of **Clean Architecture** and **Vertical Slice Architecture**, structured as follows:
 
 ```
 lib/
